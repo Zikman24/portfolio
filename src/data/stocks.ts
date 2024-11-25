@@ -1,0 +1,81 @@
+export const availableStocks = [
+  // CAC 40
+  { symbol: "AI.PA", name: "Air Liquide" },
+  { symbol: "AIR.PA", name: "Airbus" },
+  { symbol: "ALO.PA", name: "Alstom" },
+  { symbol: "MT.PA", name: "ArcelorMittal" },
+  { symbol: "CS.PA", name: "AXA" },
+  { symbol: "BNP.PA", name: "BNP Paribas" },
+  { symbol: "CAP.PA", name: "Capgemini" },
+  { symbol: "CA.PA", name: "Carrefour" },
+  { symbol: "ACA.PA", name: "Crédit Agricole" },
+  { symbol: "BN.PA", name: "Danone" },
+  { symbol: "DSY.PA", name: "Dassault Systèmes" },
+  { symbol: "ENGI.PA", name: "Engie" },
+  { symbol: "ESE.PA", name: "EssilorLuxottica" },
+  { symbol: "EL.PA", name: "EssilorLuxottica (Alt)" },
+  { symbol: "RMS.PA", name: "Hermès International" },
+  { symbol: "KER.PA", name: "Kering" },
+  { symbol: "OR.PA", name: "L'Oréal" },
+  { symbol: "MC.PA", name: "LVMH" },
+  { symbol: "ML.PA", name: "Michelin" },
+  { symbol: "ORA.PA", name: "Orange" },
+  { symbol: "RI.PA", name: "Pernod Ricard" },
+  { symbol: "PUB.PA", name: "Publicis Groupe" },
+  { symbol: "RNO.PA", name: "Renault" },
+  { symbol: "SAF.PA", name: "Safran" },
+  { symbol: "SGO.PA", name: "Saint-Gobain" },
+  { symbol: "SAN.PA", name: "Sanofi" },
+  { symbol: "SU.PA", name: "Schneider Electric" },
+  { symbol: "GLE.PA", name: "Société Générale" },
+  { symbol: "STLA.PA", name: "Stellantis" },
+  { symbol: "STM.PA", name: "STMicroelectronics" },
+  { symbol: "TEP.PA", name: "Teleperformance" },
+  { symbol: "HO.PA", name: "Thales" },
+  { symbol: "TTE.PA", name: "TotalEnergies" },
+  { symbol: "URW.PA", name: "Unibail-Rodamco-Westfield" },
+  { symbol: "VIE.PA", name: "Veolia" },
+  { symbol: "DG.PA", name: "Vinci" },
+  { symbol: "VIV.PA", name: "Vivendi" },
+  { symbol: "WLN.PA", name: "Worldline" },
+  
+  // US Tech
+  { symbol: "AAPL", name: "Apple" },
+  { symbol: "MSFT", name: "Microsoft" },
+  { symbol: "GOOGL", name: "Alphabet (Google)" },
+  { symbol: "AMZN", name: "Amazon" },
+  { symbol: "META", name: "Meta (Facebook)" },
+  { symbol: "NVDA", name: "NVIDIA" },
+  { symbol: "TSLA", name: "Tesla" },
+  
+  // ETFs
+  // Amundi
+  { symbol: "CW8.PA", name: "Amundi MSCI World UCITS ETF" },
+  { symbol: "500.PA", name: "Amundi S&P 500 UCITS ETF" },
+  { symbol: "PAEEM.PA", name: "Amundi MSCI Emerging Markets UCITS ETF" },
+  // Lyxor
+  { symbol: "EWLD.PA", name: "Lyxor MSCI World UCITS ETF" },
+  { symbol: "ESP0.PA", name: "Lyxor S&P 500 UCITS ETF" },
+  { symbol: "AEEM.PA", name: "Lyxor MSCI Emerging Markets UCITS ETF" },
+  // BNP Paribas
+  { symbol: "EP500.PA", name: "BNP Paribas Easy S&P 500 UCITS ETF EUR C" },
+  { symbol: "EWRD.PA", name: "BNP Paribas Easy MSCI World UCITS ETF" },
+  { symbol: "EEM.PA", name: "BNP Paribas Easy MSCI Emerging Markets UCITS ETF" },
+  // iShares
+  { symbol: "IWDA.AS", name: "iShares Core MSCI World UCITS ETF" },
+  { symbol: "CSPX.AS", name: "iShares Core S&P 500 UCITS ETF" },
+  { symbol: "IEMA.AS", name: "iShares Core MSCI Emerging Markets IMI UCITS ETF" },
+  // Vanguard
+  { symbol: "VWCE.DE", name: "Vanguard FTSE All-World UCITS ETF" },
+  { symbol: "VUSA.AS", name: "Vanguard S&P 500 UCITS ETF" },
+  { symbol: "VFEM.AS", name: "Vanguard FTSE Emerging Markets UCITS ETF" },
+  
+  // Crypto
+  { symbol: "BTC-EUR", name: "Bitcoin" },
+  { symbol: "ETH-EUR", name: "Ethereum" },
+  { symbol: "XRP-EUR", name: "Ripple" },
+  { symbol: "SOL-EUR", name: "Solana" },
+  { symbol: "ADA-EUR", name: "Cardano" },
+  { symbol: "DOT-EUR", name: "Polkadot" },
+  { symbol: "MATIC-EUR", name: "Polygon" }
+];
